@@ -4,6 +4,16 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Title>SimpleResult</Title>
+        <Authors>slonikappa</Authors>
+        <Description>Simple Result pattern realization</Description>
+        <PackageProjectUrl>https://github.com/slonikappa/simple-result</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/slonikappa/simple-result?tab=MIT-1-ov-file</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/slonikappa/simple-result</RepositoryUrl>
+        <PackageTags>.net, result, result pattern, .net, simple</PackageTags>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+        <NeutralLanguage>en-001</NeutralLanguage>
     </PropertyGroup>
 
 </Project>
