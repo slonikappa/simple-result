@@ -4,16 +4,23 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <Title>SimpleResult</Title>
+        <Title>Simple-Result</Title>
         <Authors>slonikappa</Authors>
-        <Description>Simple Result pattern realization</Description>
+        <Description>Simple Result pattern implementation for successes and failures handling</Description>
         <PackageProjectUrl>https://github.com/slonikappa/simple-result</PackageProjectUrl>
-        <PackageLicenseUrl>https://github.com/slonikappa/simple-result?tab=MIT-1-ov-file</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/slonikappa/simple-result</RepositoryUrl>
-        <PackageTags>.net, result, result pattern, .net, simple</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageTags>.net, result, result pattern, .net, response, return, wrapper</PackageTags>
         <AssemblyVersion>1.0.0</AssemblyVersion>
         <FileVersion>1.0.0</FileVersion>
         <NeutralLanguage>en-001</NeutralLanguage>
+        <PackageId>Simple-Result</PackageId>
+        <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     </PropertyGroup>
 
+    <ItemGroup>
+        <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
+        <None Include="..\..\LICENSE" Pack="true" PackagePath="\"/>
+    </ItemGroup>
 </Project>
