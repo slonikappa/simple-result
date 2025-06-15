@@ -14,6 +14,8 @@ public sealed class DataResult<T> : ResultBase
     
     public static DataResult<T> Failure(Error error) => new(error);
 
+    public static DataResult<T> Failure(string message, string? code = null) => new(Error.Create(message, code));
+
     public static implicit operator DataResult<T>(Result result) =>
         result.IsSuccess
             ? throw new InvalidOperationException("Cannot convert successful non-generic result to generic result without data")
