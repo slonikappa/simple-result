@@ -3,7 +3,6 @@
 namespace SimpleResult;
 
 public sealed class DataResult<T> : ResultBase
-    where T : class
 {
     public T? Data { get; }
 
